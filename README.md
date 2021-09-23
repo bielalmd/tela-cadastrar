@@ -1,7 +1,7 @@
 
-# Livraria Cultural
+# Livraria Cultura
 
-Processo seletivo Livraria Cultural.
+Processo seletivo Livraria Cultura.
 
 ## Ferramentas
 
