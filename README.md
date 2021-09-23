@@ -2,6 +2,7 @@
 # Livraria Cultura
 
 Processo seletivo Livraria Cultura.
+Tela de cadastro com responsividade mobile.
 
 ## Ferramentas
 
