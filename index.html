@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Cultura</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+
+
+<body>
+     <div class="container-fluid col-md-12">
+        <div class="container2 ">
+          <div class="content first-content">
+              <div class="first-column">
+                  <h2 class="title title-primary my-5"></h2>
+                  <p class="description description-primary mt-5"></p>
+                  <p class="description description-primary mt-5"></p>
+                 
+              </div>    
+              <div class="second-column container">
+                  <h2 class=" title-second">Trabalhe conosco</h2>
+                  <form class="form">
+    
+                      <label class="label-input" for="">
+                          <i class="far fa-user icon-modify"></i>
+                          <input type="text" name="nome" id="nome" placeholder="Nome..."  >
+                      </label>
+                      
+                      <label class="label-input" for="">
+                        <i class="fas fa-star-of-life icon-modify"></i>
+                        <input  type="text" name="usuario" id="usuario" placeholder="Idade...">
+                    </label>
+
+                    <label class="label-input" for="">
+                        <i class="fas fa-genderless icon-modify"></i>
+                        <select class="form-control" name="tipo" id="tipo" >
+                            <option>Sexo:</option>
+                            <option value="">Feminino</option>
+                             <option  value="">Masculino</option>
+                             <option  value="">Prefiro não dizer</option>
+                        </select>
+                    </label>
+    
+                    <label class="label-input" for="">
+                        <i class="fas fa-flag icon-modify"></i>
+                        <select class="form-control" name="estado" id="" >
+                            <option selected>Escolha seu estado...</option>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PR">PR</option>
+                    <option value="PB">PB</option>
+                    <option value="PA">PA</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SE">SE</option>
+                    <option value="SP">SP</option>
+                    <option value="TO">TO</option>
+                        </select>
+                    </label>
+                    
+                    <div class="label-input">
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control" rows="2" placeholder="Última experiência profissional:"></textarea>
+                      </div>
+                    
+                      <!-- <i class="fas fa-lock icon-modify"></i> -->
+    
+                      <label class="label-input custom-file" for="">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label" for="customFile">Envie o seu curriculo</label>
+                    </label>
+    
+    
+                      
+                      <div class="d-flex justify-content-center">
+                          <button id="signin" routerLink='/entrar' class="btn mr-3 btn-danger">Cancelar</button>     
+                          <button class="btn  btn-second" (click)='cadastrar()'>Cadastrar</button>  
+    
+                      </div>
+                  </form>
+              </div>
+          </div>         
+        </div> 
+    </div> 
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
